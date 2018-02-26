@@ -53,6 +53,7 @@
   <PropertyGroup>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);IncludePrivateAssembly</TargetsForTfmSpecificBuildOutput>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AssemblyName>dotnet-certes</AssemblyName>
   </PropertyGroup>
 
   <Target Name="IncludePrivateAssembly">
