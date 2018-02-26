@@ -116,15 +116,6 @@ deploy:
         - master
 
   - provider: NuGet
-    api_key:
-      secure: enjdo7AiXKaGhj8NC2k3wjQ9mGlU1jxABzG6tuphpM7dNaazlrSlvwR2H1kC4kr+
-    skip_symbols: true
-    symbol_server:
-    artifact: nupkg
-    on:
-      branch: release
-
-  - provider: NuGet
     server: https://www.myget.org/F/certes/api/v2/package
     api_key:
       secure: RSdqUIwRSn8DI5xaa4iWBzOtYU6y3K9JRh07myQpAIRf5IhlwsZpFsnQOpCg1g7J
